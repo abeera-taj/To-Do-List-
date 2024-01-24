@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today To-dos</title>
+    <link rel="icon" type="icon" href="./penguin.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="today-head">
+      <h1>To Do's for Today</h1>
+      <p>Write your To-Do's for today</p>
+    </div>
+    <div class="today-container">
+      <input
+        type="text"
+        placeholder="Add Task/Tasks"
+        class="add-task-button"
+        id="taskInput"
+      />
+      <button class="add-task-button" id="add-task" onclick="todoForToday()">
+        Add task
+      </button>
+      <ul id="today-task-list">
+        <!-- <li>Task1</li>
+    <li>Task2</li> -->
+      </ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

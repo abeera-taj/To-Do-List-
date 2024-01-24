@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="icon" href="./penguin.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="heading">
+      Dailist <img src="./penguin.png" style="height: 1em; width: 1em" />
+    </h1>
+    <!-- QUOTE GENERATOR -->
+    <div class="quote-container">
+      <div class="quote">"What you seek is seeking you."</div>
+      <div class="write">-RUMI</div>
+
+      <button class="quotes-button">Find Quotes</button>
+    </div>
+
+    <div class="container">
+      <div class="today">
+        <a href="./today.html" target="_blank"> <h1>Today</h1></a>
+      </div>
+      <div class="tomorrow">
+        <a href="./tomorrow.html" target="_blank"> <h1>Tomorrow</h1></a>
+        <h2>In Progress</h2>
+      </div>
+      <div class="upcoming">
+        <a href="#"> <h1>Upcoming</h1></a>
+        <h2>In Progress</h2>
+      </div>
+    </div>
+    <!-- Adding Bootstrap -->
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Terms and Conditions</h5>
+            <p class="card-text">
+              The application is designed to be user-friendly and has been <br>
+              developed to facilitate the tracking of the user's daily tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Developed By</h5>
+            <p class="card-text">Penguin Productions</p>
+            <a href="#" class="btn btn-primary">https://biaportfolio.netlify.app/</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

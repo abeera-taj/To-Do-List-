@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  background: no-repeat center/80% rgb(154, 213, 241);
+  /* background: linear-gradient(45deg, rgb(0, 187, 255),  rgb(3, 128, 147)); */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'montserrat'; */
+  font-family: 'Nunito', sans-serif;
+}
+.quote-container {
+  margin-left: 35%;
+  line-height: 1.5em;
+  width: 30%;
+  height: 200px;
+  padding: 50px 40px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 25px 31px rgb(0, 0, 0, 0.5);
+  background: #f1eaea;
+}
+.quote-container button {
+  margin-left: 35%;
+  border: 1px solid #2f2f2f;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 2em;
+  background: #2f2f2f;
+  color: #f1eaea;
+  margin-top: 1em;
+}
+.container {
+  margin-top: 10px;
+}
+.today,
+.tomorrow,
+.upcoming {
+  height: 15em;
+  width: 12em;
+  border: none;
+  border-radius: 1em;
+  /* box-shadow: 2px 0px 3px 5px rgb(196, 237, 240); */
+  box-shadow: 0px 25px 31px rgba(54, 142, 150, 0.703);
+  color: #2f2f2f;
+  padding-top: 1em;
+  /* background-image: url("./penguin.png");   /* here you can add bG IMAGE*/
+  /* background-size: cover;  */
+  /* background: #fff; */ /*HERE YOU CAN ADD BG FOR SQUARE*/
+  background: #f1eaea;
+}
+.today h1,
+.tomorrow h1,
+.upcoming h1 {
+  /* background-color: white; */
+  background: #f1eaea;
+  text-shadow:rgb(0, 0, 0, 0.5) 1px 1px 5px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10em;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  margin-top: 1em;
+}
+.container a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+.container a:hover {
+  color: #2f2f2f;
+}
+.row{
+  text-align: center;
+}
+
+
+/********* TODAY PAGE CSS **********/
+.today-head {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.today-container {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30em;
+  min-height: 10em;
+  color: azure;
+  background-color: black;
+  padding: 2em 1em 3em 1em;
+  transform: translate(-50%, -50%);
+  border-radius: 1em;
+  box-shadow: 2px 3px 8px rgb(31, 45, 43);
+}
+.today-container button,
+input {
+  /* border:1px solid green; */
+  border: none;
+  box-shadow: 1px 1px 2px rgb(229, 242, 246);
+  font-family: "Nunito", sans-serif;
+}
+.today-head h1::selection,
+p::selection {
+  color: white;
+  background-color: #2f2f2f;
+}
+
+.add-task-button {
+  width: 10em;
+  height: 3em;
+  border-radius: 0.5em;
+  user-select: none;
+  outline: none;
+  /* margin-left:2em ; */
+  font-family: "Poppins", sans-serif;
+}
+#today-task-list {
+  list-style: none;
+}
+#today-task-list li {
+  background-color: black;
+  padding-left: 0.5em;
+  font-family: "Poppins", sans-serif;
+  /* text-decoration: line-through; */
+  line-height: 2em;
+}
+#today-task-list li img {
+  width: 1em;
+  height: 1em;
+  /* border-radius: 70%;  */
+  float: right;
+  line-height: 2em;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addNotes img{
+    width: 2em;
+    height: 2em;
+}
+.text-para{
+    border: 1px solid black;
+    color: green;
+    width: 10em;
+    height: 10em;
+}
+.para-div{ /* PARENT CONTAINER*/
+   /* display: flex; */
+   /* align-items: center;
+   justify-content: center; */
+   margin-left: 50%;
+   margin-top: 5%;
+}
+
